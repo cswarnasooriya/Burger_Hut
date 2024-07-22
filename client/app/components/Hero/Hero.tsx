@@ -41,7 +41,7 @@ const Hero = () => {
     showDots={true}
     >
         {/* first hero slide */}
-        <div className="w-[100%] h-[88vh] flex items-center justify-center flex-col bg-blue-950 clip_path">
+        <div className="w-[100%] h-[88vh] flex items-center justify-center flex-col bg-blue-950 md:clip_path">
             <div className="w-[80%] grid grid-cols-1 md:grid-cols-2 justify-center items-center mx-auto gap-[2rem]">
                 <Image src={Img1} alt="Image 1" />
                 <div>
@@ -71,12 +71,12 @@ const Hero = () => {
         </div>
 
         {/* second hero slide */}
-        <div className="w-[100%] h-[88vh] flex items-center justify-center flex-col bg-blue-950 clip_path">
+        <div className="w-[100%] h-[88vh] flex items-center justify-center flex-col bg-red-950 md:clip_path">
             <div className="w-[80%] grid grid-cols-1 md:grid-cols-2 justify-center items-center mx-auto gap-[2rem]">
                 <Image src={Img2} alt="Image 1" />
                 <div>
                     <h1 className="text-[40px] font-semibold text-yellow-400">
-                        Get Hot Deal Promo
+                        Get Limited Promo
                     </h1>
                     <h1 className="text-[90px] leading-[5rem] text-white font-bold">
                         Best <br />Prices
