@@ -9,7 +9,7 @@ const Feature = () => {
         <h1 className="heading">
             Burger made with <br />
             Love and 
-            <span>Care</span>
+            <span className="text-red-600"> Care</span>
         </h1>
 
         {/* cards */}
