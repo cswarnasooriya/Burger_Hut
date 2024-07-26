@@ -27,6 +27,34 @@ const Feature = () => {
 
             </div>
           </div>
+
+           {/* card2 */}
+           <div>
+            <div className="p-6 lg:translate-y-[7rem] hover:bg-white rounded-lg transition-all duration-200 cursor-pointer">
+              <Image src={Img1} alt='burger image' className="rounded-3xl" />
+              <h1 className="mt-[1.5rem] text-center text-[24px] text-black font-semibold">
+                Good Quality
+              </h1>
+              <p className="mt-[0.2rem] text-black text-opacity-60  text-justify">
+              The best burgers offer a combination of tastes and textures – sweet, sour, salt – with a bit of crunch. The patty needs to be juicy, the bun soft but sturdy, and you want the meat/bun/accompaniment ratio to be even from first to last bite.
+              </p>
+
+            </div>
+          </div>
+
+           {/* card1 */}
+           <div>
+            <div className="p-6 hover:bg-white rounded-lg transition-all duration-200 cursor-pointer">
+              <Image src={Img1} alt='burger image' className="rounded-3xl" />
+              <h1 className="mt-[1.5rem] text-center text-[24px] text-black font-semibold">
+                Best and Taste
+              </h1>
+              <p className="mt-[0.2rem] text-black text-opacity-60  text-justify">
+              The best burgers offer a combination of tastes and textures – sweet, sour, salt – with a bit of crunch. The patty needs to be juicy, the bun soft but sturdy, and you want the meat/bun/accompaniment ratio to be even from first to last bite.
+              </p>
+
+            </div>
+          </div>
         </div>
       
     </div>
